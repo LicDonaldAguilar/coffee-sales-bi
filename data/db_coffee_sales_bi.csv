@@ -1,0 +1,761 @@
+﻿ID_Venta;Fecha;Sucursal;Canal;Pais_Destino;Producto;Categoria;Cliente;Es_Cliente_Frecuente;Cantidad;Precio_Unitario;Costo_Unitario;Moneda;Tipo_Cambio;Total_Venta;Total_Costo;Total_Venta_CRC
+5001;01/01/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Gabriela Salas;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5002;01/01/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;José Fernández;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5003;01/01/2026;Sucursal Norte;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Juan Ramírez;Sí;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5004;01/01/2026;Sucursal Este;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Mario Sánchez;No;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5005;02/01/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Melissa Zamora;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5006;02/01/2026;Sucursal Norte;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Gabriela Salas;Sí;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5007;02/01/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Mario Sánchez;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5008;02/01/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Mario Sánchez;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5009;02/01/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Diego Castro;Sí;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5010;02/01/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Sofía Rojas;Sí;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5011;03/01/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Ricardo Gómez;Sí;3;1 500,00;450,00;CRC;1,00;4 500,00;1 350,00;4 500,00
+5012;03/01/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Kevin Brenes;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5013;03/01/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;José Fernández;Sí;4;800,00;250,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5014;03/01/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Karla Monge;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5015;03/01/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Natalia Cordero;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5016;03/01/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Paola Quirós;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5017;04/01/2026;Sucursal Centro;Nacional;Costa Rica;Ensalada César;Alimentos;Camila Araya;Sí;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5018;04/01/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Alejandro Vega;Sí;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5019;04/01/2026;Sucursal Sur;Nacional;Costa Rica;Ensalada César;Alimentos;Camila Araya;Sí;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5020;04/01/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Esteban Alvarado;No;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5021;05/01/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Karla Monge;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5022;05/01/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Fernanda Ureña;No;4;1 400,00;480,00;CRC;1,00;5 600,00;1 920,00;5 600,00
+5023;05/01/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Karla Monge;Sí;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5024;05/01/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Paola Quirós;Sí;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5025;05/01/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Tostado Premium (saco 46kg);Exportación;Nordic Coffee Traders;N/A;2;210,00;140,00;USD;519,81;420,00;280,00;218 320,20
+5026;06/01/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Gabriela Salas;No;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5027;06/01/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Gabriela Salas;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5028;06/01/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Valeria Chacón;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5029;07/01/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Laura Jiménez;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5030;07/01/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Andrés Mora;Sí;4;1 400,00;480,00;CRC;1,00;5 600,00;1 920,00;5 600,00
+5031;07/01/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Valeria Chacón;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5032;07/01/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Mario Sánchez;Sí;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5033;07/01/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Karla Monge;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5034;08/01/2026;Sucursal Norte;Nacional;Costa Rica;Ensalada César;Alimentos;Alejandro Vega;No;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5035;08/01/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Gabriela Salas;Sí;3;1 600,00;500,00;CRC;1,00;4 800,00;1 500,00;4 800,00
+5036;08/01/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Sofía Rojas;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5037;09/01/2026;Sucursal Norte;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Juan Ramírez;Sí;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5038;09/01/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Carlos Vargas;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5039;09/01/2026;Sucursal Centro;Exportación;Canadá;Café en Grano Tostado Premium (saco 46kg);Exportación;Pacific Bean Co.;N/A;3;210,00;140,00;USD;520,08;630,00;420,00;327 650,40
+5040;10/01/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Ricardo Gómez;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5041;10/01/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Esteban Alvarado;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5042;10/01/2026;Sucursal Este;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Daniel Rodríguez;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5043;11/01/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;María López;Sí;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5044;11/01/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Karla Monge;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5045;11/01/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Melissa Zamora;No;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5046;11/01/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Natalia Cordero;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5047;11/01/2026;Sucursal Este;Nacional;Costa Rica;Ensalada César;Alimentos;Andrés Mora;No;4;3 200,00;1 300,00;CRC;1,00;12 800,00;5 200,00;12 800,00
+5048;12/01/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Priscilla Barrantes;No;4;1 300,00;450,00;CRC;1,00;5 200,00;1 800,00;5 200,00
+5049;12/01/2026;Sucursal Norte;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Daniel Rodríguez;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5050;12/01/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;José Fernández;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5051;12/01/2026;Sucursal Sur;Nacional;Costa Rica;Ensalada César;Alimentos;Valeria Chacón;No;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5052;12/01/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Paola Quirós;No;3;2 200,00;750,00;CRC;1,00;6 600,00;2 250,00;6 600,00
+5053;12/01/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;José Fernández;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5054;13/01/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Sofía Rojas;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5055;13/01/2026;Sucursal Sur;Nacional;Costa Rica;Brownie;Repostería;José Fernández;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5056;14/01/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Diego Castro;No;3;800,00;250,00;CRC;1,00;2 400,00;750,00;2 400,00
+5057;14/01/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Daniel Rodríguez;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5058;14/01/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Laura Jiménez;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5059;15/01/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Ricardo Gómez;No;3;1 300,00;450,00;CRC;1,00;3 900,00;1 350,00;3 900,00
+5060;15/01/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Mario Sánchez;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5061;16/01/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Sofía Rojas;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5062;16/01/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Luis Herrera;No;4;1 200,00;350,00;CRC;1,00;4 800,00;1 400,00;4 800,00
+5063;16/01/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Valeria Chacón;No;4;2 200,00;750,00;CRC;1,00;8 800,00;3 000,00;8 800,00
+5064;16/01/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Juan Ramírez;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5065;17/01/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Kevin Brenes;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5066;17/01/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Mario Sánchez;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5067;17/01/2026;Sucursal Sur;Nacional;Costa Rica;Ensalada César;Alimentos;Diego Castro;No;4;3 200,00;1 300,00;CRC;1,00;12 800,00;5 200,00;12 800,00
+5068;17/01/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Laura Jiménez;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5069;17/01/2026;Sucursal Centro;Exportación;Panamá;Café en Grano Tostado Premium (saco 46kg);Exportación;Café Andino S.A.;N/A;5;210,00;140,00;USD;525,26;1 050,00;700,00;551 523,00
+5070;18/01/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Priscilla Barrantes;Sí;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5071;18/01/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Andrés Mora;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5072;18/01/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Mario Sánchez;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5073;18/01/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Camila Araya;No;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5074;18/01/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Sofía Rojas;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5075;18/01/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Mario Sánchez;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5076;19/01/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Mario Sánchez;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5077;19/01/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Laura Jiménez;No;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5078;19/01/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Ana Solís;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5079;19/01/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Luis Herrera;No;4;1 400,00;480,00;CRC;1,00;5 600,00;1 920,00;5 600,00
+5080;19/01/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Orgánico (saco 46kg);Exportación;Nordic Coffee Traders;N/A;2;245,00;165,00;USD;530,36;490,00;330,00;259 876,40
+5081;20/01/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Daniel Rodríguez;No;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5082;20/01/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Alejandro Vega;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5083;20/01/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Gabriela Salas;Sí;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5084;20/01/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Ana Solís;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5085;21/01/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Karla Monge;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5086;21/01/2026;Sucursal Norte;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Luis Herrera;No;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5087;21/01/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Andrés Mora;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5088;21/01/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Juan Ramírez;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5089;22/01/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Alejandro Vega;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5090;22/01/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Mario Sánchez;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5091;22/01/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Camila Araya;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5092;22/01/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Ana Solís;Sí;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5093;23/01/2026;Sucursal Centro;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Ricardo Gómez;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5094;23/01/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Paola Quirós;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5095;23/01/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Ricardo Gómez;Sí;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5096;23/01/2026;Sucursal Este;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Diego Castro;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5097;23/01/2026;Sucursal Centro;Exportación;Chile;Café en Grano Orgánico (saco 46kg);Exportación;Café del Sur Exports;N/A;2;245,00;165,00;USD;525,44;490,00;330,00;257 465,60
+5098;24/01/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Paola Quirós;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5099;24/01/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;María López;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5100;25/01/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Natalia Cordero;No;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5101;25/01/2026;Sucursal Centro;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Alejandro Vega;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5102;25/01/2026;Sucursal Norte;Nacional;Costa Rica;Croissant;Repostería;Gabriela Salas;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5103;25/01/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Camila Araya;Sí;3;1 200,00;350,00;CRC;1,00;3 600,00;1 050,00;3 600,00
+5104;25/01/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;José Fernández;No;4;1 600,00;500,00;CRC;1,00;6 400,00;2 000,00;6 400,00
+5105;25/01/2026;Sucursal Centro;Exportación;Chile;Café en Grano Tostado Premium (saco 46kg);Exportación;Café del Sur Exports;N/A;5;210,00;140,00;USD;530,32;1 050,00;700,00;556 836,00
+5106;26/01/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Juan Ramírez;Sí;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5107;26/01/2026;Sucursal Norte;Nacional;Costa Rica;Croissant;Repostería;Alejandro Vega;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5108;26/01/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Luis Herrera;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5109;26/01/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Paola Quirós;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5110;27/01/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Andrés Mora;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5111;27/01/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;José Fernández;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5112;27/01/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Esteban Alvarado;Sí;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5113;27/01/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Natalia Cordero;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5114;27/01/2026;Sucursal Este;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Laura Jiménez;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5115;28/01/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Melissa Zamora;Sí;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5116;28/01/2026;Sucursal Norte;Nacional;Costa Rica;Ensalada César;Alimentos;Laura Jiménez;No;3;3 200,00;1 300,00;CRC;1,00;9 600,00;3 900,00;9 600,00
+5117;28/01/2026;Sucursal Norte;Nacional;Costa Rica;Ensalada César;Alimentos;Ricardo Gómez;Sí;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5118;28/01/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Luis Herrera;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5119;28/01/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Karla Monge;No;3;1 500,00;450,00;CRC;1,00;4 500,00;1 350,00;4 500,00
+5120;29/01/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Natalia Cordero;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5121;29/01/2026;Sucursal Centro;Nacional;Costa Rica;Ensalada César;Alimentos;María López;No;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5122;29/01/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;María López;Sí;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5123;29/01/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Gabriela Salas;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5124;30/01/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Andrés Mora;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5125;30/01/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Ana Solís;No;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5126;30/01/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Alejandro Vega;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5127;30/01/2026;Sucursal Norte;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Esteban Alvarado;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5128;30/01/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Daniel Rodríguez;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5129;30/01/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Gabriela Salas;Sí;3;800,00;250,00;CRC;1,00;2 400,00;750,00;2 400,00
+5130;31/01/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Melissa Zamora;Sí;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5131;31/01/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Camila Araya;Sí;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5132;31/01/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Fernanda Ureña;Sí;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5133;01/02/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Esteban Alvarado;Sí;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5134;01/02/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Paola Quirós;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5135;01/02/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Luis Herrera;No;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5136;01/02/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Luis Herrera;No;4;1 500,00;450,00;CRC;1,00;6 000,00;1 800,00;6 000,00
+5137;02/02/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Gabriela Salas;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5138;02/02/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Laura Jiménez;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5139;02/02/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Laura Jiménez;No;3;2 200,00;750,00;CRC;1,00;6 600,00;2 250,00;6 600,00
+5140;02/02/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Carlos Vargas;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5141;02/02/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Esteban Alvarado;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5142;02/02/2026;Sucursal Centro;Exportación;Chile;Café en Grano Orgánico (saco 46kg);Exportación;Café del Sur Exports;N/A;3;245,00;165,00;USD;523,68;735,00;495,00;384 904,80
+5143;03/02/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;José Fernández;Sí;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5144;03/02/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Camila Araya;No;4;1 500,00;450,00;CRC;1,00;6 000,00;1 800,00;6 000,00
+5145;03/02/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Sofía Rojas;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5146;03/02/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;José Fernández;Sí;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5147;04/02/2026;Sucursal Centro;Nacional;Costa Rica;Café Latte;Bebidas Calientes;José Fernández;No;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5148;04/02/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Juan Ramírez;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5149;04/02/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Laura Jiménez;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5150;04/02/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Camila Araya;Sí;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5151;04/02/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Priscilla Barrantes;No;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5152;05/02/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Ricardo Gómez;No;3;800,00;250,00;CRC;1,00;2 400,00;750,00;2 400,00
+5153;05/02/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Juan Ramírez;No;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5154;05/02/2026;Sucursal Centro;Exportación;Alemania;Café en Grano Orgánico (saco 46kg);Exportación;Roast Masters GmbH;N/A;2;245,00;165,00;USD;521,94;490,00;330,00;255 750,60
+5155;06/02/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Daniel Rodríguez;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5156;06/02/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Andrés Mora;Sí;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5157;06/02/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Diego Castro;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5158;06/02/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Esteban Alvarado;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5159;07/02/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Laura Jiménez;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5160;07/02/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Mario Sánchez;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5161;07/02/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Fernanda Ureña;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5162;08/02/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Kevin Brenes;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5163;08/02/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Camila Araya;No;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5164;08/02/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;José Fernández;Sí;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5165;08/02/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Sofía Rojas;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5166;08/02/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Gabriela Salas;No;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5167;09/02/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Kevin Brenes;No;4;1 500,00;450,00;CRC;1,00;6 000,00;1 800,00;6 000,00
+5168;09/02/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Esteban Alvarado;Sí;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5169;09/02/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Paola Quirós;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5170;09/02/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Laura Jiménez;Sí;3;1 200,00;350,00;CRC;1,00;3 600,00;1 050,00;3 600,00
+5171;09/02/2026;Sucursal Centro;Exportación;Estados Unidos;Café en Grano Orgánico (saco 46kg);Exportación;Global Roasters Inc.;N/A;4;245,00;165,00;USD;528,88;980,00;660,00;518 302,40
+5172;10/02/2026;Sucursal Norte;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Fernanda Ureña;No;3;1 200,00;350,00;CRC;1,00;3 600,00;1 050,00;3 600,00
+5173;10/02/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Melissa Zamora;Sí;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5174;10/02/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Priscilla Barrantes;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5175;11/02/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Gabriela Salas;Sí;4;1 200,00;350,00;CRC;1,00;4 800,00;1 400,00;4 800,00
+5176;11/02/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;María López;Sí;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5177;11/02/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Camila Araya;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5178;11/02/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Andrés Mora;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5179;11/02/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Melissa Zamora;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5180;11/02/2026;Sucursal Centro;Exportación;Estados Unidos;Café en Grano Orgánico (saco 46kg);Exportación;Global Roasters Inc.;N/A;2;245,00;165,00;USD;521,19;490,00;330,00;255 383,10
+5181;12/02/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Andrés Mora;No;3;2 200,00;750,00;CRC;1,00;6 600,00;2 250,00;6 600,00
+5182;12/02/2026;Sucursal Norte;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Kevin Brenes;Sí;2;2 500,00;950,00;CRC;1,00;5 000,00;1 900,00;5 000,00
+5183;12/02/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Luis Herrera;No;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5184;12/02/2026;Sucursal Centro;Exportación;Panamá;Café en Grano Tostado Premium (saco 46kg);Exportación;Café Andino S.A.;N/A;2;210,00;140,00;USD;521,23;420,00;280,00;218 916,60
+5185;13/02/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Priscilla Barrantes;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5186;13/02/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Ricardo Gómez;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5187;13/02/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Kevin Brenes;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5188;13/02/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Gabriela Salas;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5189;13/02/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Laura Jiménez;No;3;1 300,00;450,00;CRC;1,00;3 900,00;1 350,00;3 900,00
+5190;13/02/2026;Sucursal Centro;Exportación;Chile;Café en Grano Orgánico (saco 46kg);Exportación;Café del Sur Exports;N/A;2;245,00;165,00;USD;528,26;490,00;330,00;258 847,40
+5191;14/02/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Sofía Rojas;Sí;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5192;14/02/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Luis Herrera;No;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5193;14/02/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Paola Quirós;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5194;14/02/2026;Sucursal Centro;Exportación;Panamá;Café en Grano Tostado Premium (saco 46kg);Exportación;Café Andino S.A.;N/A;3;210,00;140,00;USD;531,38;630,00;420,00;334 769,40
+5195;15/02/2026;Sucursal Norte;Nacional;Costa Rica;Ensalada César;Alimentos;Sofía Rojas;Sí;4;3 200,00;1 300,00;CRC;1,00;12 800,00;5 200,00;12 800,00
+5196;15/02/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Kevin Brenes;Sí;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5197;15/02/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;José Fernández;No;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5198;15/02/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;José Fernández;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5199;15/02/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Orgánico (saco 46kg);Exportación;Nordic Coffee Traders;N/A;5;245,00;165,00;USD;528,73;1 225,00;825,00;647 694,25
+5200;16/02/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Paola Quirós;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5201;16/02/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Daniel Rodríguez;Sí;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5202;16/02/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Valeria Chacón;Sí;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5203;16/02/2026;Sucursal Centro;Exportación;Panamá;Café en Grano Orgánico (saco 46kg);Exportación;Café Andino S.A.;N/A;2;245,00;165,00;USD;518,05;490,00;330,00;253 844,50
+5204;17/02/2026;Sucursal Centro;Nacional;Costa Rica;Ensalada César;Alimentos;Melissa Zamora;No;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5205;17/02/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Andrés Mora;Sí;3;1 500,00;450,00;CRC;1,00;4 500,00;1 350,00;4 500,00
+5206;17/02/2026;Sucursal Norte;Nacional;Costa Rica;Ensalada César;Alimentos;Gabriela Salas;No;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5207;17/02/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Esteban Alvarado;Sí;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5208;17/02/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Priscilla Barrantes;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5209;18/02/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;José Fernández;No;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5210;18/02/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Gabriela Salas;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5211;18/02/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Ana Solís;No;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5212;18/02/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Camila Araya;Sí;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5213;18/02/2026;Sucursal Este;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Ana Solís;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5214;18/02/2026;Sucursal Centro;Exportación;Alemania;Café en Grano Orgánico (saco 46kg);Exportación;Roast Masters GmbH;N/A;5;245,00;165,00;USD;531,61;1 225,00;825,00;651 222,25
+5215;19/02/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Laura Jiménez;No;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5216;19/02/2026;Sucursal Norte;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Mario Sánchez;No;3;2 500,00;950,00;CRC;1,00;7 500,00;2 850,00;7 500,00
+5217;19/02/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Valeria Chacón;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5218;20/02/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Paola Quirós;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5219;20/02/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Luis Herrera;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5220;20/02/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Ana Solís;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5221;20/02/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Andrés Mora;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5222;20/02/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Paola Quirós;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5223;20/02/2026;Sucursal Centro;Exportación;Alemania;Café en Grano Tostado Premium (saco 46kg);Exportación;Roast Masters GmbH;N/A;2;210,00;140,00;USD;518,57;420,00;280,00;217 799,40
+5224;21/02/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Carlos Vargas;Sí;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5225;21/02/2026;Sucursal Norte;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Ana Solís;Sí;4;1 200,00;350,00;CRC;1,00;4 800,00;1 400,00;4 800,00
+5226;21/02/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Paola Quirós;No;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5227;22/02/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Sofía Rojas;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5228;22/02/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Juan Ramírez;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5229;22/02/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Melissa Zamora;No;4;2 500,00;950,00;CRC;1,00;10 000,00;3 800,00;10 000,00
+5230;22/02/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Camila Araya;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5231;22/02/2026;Sucursal Este;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Luis Herrera;Sí;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5232;23/02/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Ana Solís;No;4;800,00;250,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5233;23/02/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Alejandro Vega;No;3;1 600,00;500,00;CRC;1,00;4 800,00;1 500,00;4 800,00
+5234;23/02/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Melissa Zamora;Sí;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5235;23/02/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Kevin Brenes;No;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5236;23/02/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Juan Ramírez;Sí;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5237;23/02/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Kevin Brenes;Sí;4;1 600,00;500,00;CRC;1,00;6 400,00;2 000,00;6 400,00
+5238;24/02/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Sofía Rojas;Sí;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5239;24/02/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Kevin Brenes;No;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5240;25/02/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Priscilla Barrantes;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5241;25/02/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Melissa Zamora;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5242;25/02/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Fernanda Ureña;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5243;25/02/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Laura Jiménez;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5244;25/02/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Diego Castro;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5245;26/02/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Laura Jiménez;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5246;26/02/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Juan Ramírez;No;3;2 200,00;750,00;CRC;1,00;6 600,00;2 250,00;6 600,00
+5247;26/02/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Karla Monge;No;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5248;26/02/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Andrés Mora;No;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5249;27/02/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Fernanda Ureña;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5250;27/02/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Gabriela Salas;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5251;27/02/2026;Sucursal Norte;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Daniel Rodríguez;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5252;27/02/2026;Sucursal Este;Nacional;Costa Rica;Ensalada César;Alimentos;Alejandro Vega;Sí;4;3 200,00;1 300,00;CRC;1,00;12 800,00;5 200,00;12 800,00
+5253;27/02/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Carlos Vargas;Sí;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5254;28/02/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Kevin Brenes;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5255;28/02/2026;Sucursal Norte;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Alejandro Vega;Sí;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5256;28/02/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;María López;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5257;28/02/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Paola Quirós;No;4;1 200,00;350,00;CRC;1,00;4 800,00;1 400,00;4 800,00
+5258;01/03/2026;Sucursal Centro;Nacional;Costa Rica;Ensalada César;Alimentos;Esteban Alvarado;No;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5259;01/03/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Kevin Brenes;Sí;4;2 200,00;750,00;CRC;1,00;8 800,00;3 000,00;8 800,00
+5260;01/03/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Natalia Cordero;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5261;01/03/2026;Sucursal Este;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Daniel Rodríguez;Sí;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5262;02/03/2026;Sucursal Norte;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Melissa Zamora;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5263;02/03/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Ana Solís;No;3;1 500,00;450,00;CRC;1,00;4 500,00;1 350,00;4 500,00
+5264;02/03/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Esteban Alvarado;Sí;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5265;03/03/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Daniel Rodríguez;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5266;03/03/2026;Sucursal Norte;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Priscilla Barrantes;Sí;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5267;03/03/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Paola Quirós;Sí;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5268;03/03/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Sofía Rojas;No;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5269;03/03/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Camila Araya;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5270;03/03/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Gabriela Salas;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5271;04/03/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Valeria Chacón;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5272;04/03/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Mario Sánchez;No;3;800,00;250,00;CRC;1,00;2 400,00;750,00;2 400,00
+5273;05/03/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Gabriela Salas;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5274;05/03/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Gabriela Salas;No;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5275;05/03/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Camila Araya;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5276;05/03/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Ricardo Gómez;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5277;05/03/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Valeria Chacón;Sí;4;1 200,00;400,00;CRC;1,00;4 800,00;1 600,00;4 800,00
+5278;06/03/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;María López;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5279;06/03/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Ricardo Gómez;No;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5280;06/03/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Juan Ramírez;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5281;06/03/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Melissa Zamora;Sí;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5282;07/03/2026;Sucursal Centro;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Natalia Cordero;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5283;07/03/2026;Sucursal Norte;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Luis Herrera;No;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5284;07/03/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Esteban Alvarado;Sí;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5285;07/03/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Laura Jiménez;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5286;08/03/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Valeria Chacón;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5287;08/03/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Ricardo Gómez;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5288;08/03/2026;Sucursal Norte;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Natalia Cordero;No;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5289;08/03/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Juan Ramírez;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5290;08/03/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Andrés Mora;Sí;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5291;08/03/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Tostado Premium (saco 46kg);Exportación;Nordic Coffee Traders;N/A;3;210,00;140,00;USD;520,79;630,00;420,00;328 097,70
+5292;09/03/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Natalia Cordero;No;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5293;09/03/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Diego Castro;No;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5294;09/03/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Juan Ramírez;No;3;1 400,00;480,00;CRC;1,00;4 200,00;1 440,00;4 200,00
+5295;09/03/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Mario Sánchez;Sí;4;2 500,00;950,00;CRC;1,00;10 000,00;3 800,00;10 000,00
+5296;09/03/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Paola Quirós;Sí;3;2 500,00;950,00;CRC;1,00;7 500,00;2 850,00;7 500,00
+5297;10/03/2026;Sucursal Centro;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Valeria Chacón;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5298;10/03/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Karla Monge;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5299;11/03/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Kevin Brenes;No;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5300;11/03/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Luis Herrera;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5301;11/03/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Diego Castro;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5302;11/03/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Sofía Rojas;No;3;2 500,00;950,00;CRC;1,00;7 500,00;2 850,00;7 500,00
+5303;11/03/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Gabriela Salas;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5304;12/03/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Esteban Alvarado;No;3;800,00;250,00;CRC;1,00;2 400,00;750,00;2 400,00
+5305;12/03/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;María López;No;3;1 500,00;450,00;CRC;1,00;4 500,00;1 350,00;4 500,00
+5306;12/03/2026;Sucursal Norte;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Luis Herrera;No;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5307;12/03/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Ana Solís;No;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5308;12/03/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Juan Ramírez;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5309;12/03/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;José Fernández;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5310;12/03/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;María López;Sí;3;1 500,00;450,00;CRC;1,00;4 500,00;1 350,00;4 500,00
+5311;14/03/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Mario Sánchez;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5312;14/03/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Andrés Mora;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5313;15/03/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Carlos Vargas;Sí;4;800,00;250,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5314;15/03/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Camila Araya;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5315;16/03/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Karla Monge;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5316;16/03/2026;Sucursal Norte;Nacional;Costa Rica;Croissant;Repostería;Esteban Alvarado;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5317;16/03/2026;Sucursal Norte;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;María López;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5318;16/03/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Priscilla Barrantes;Sí;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5319;17/03/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Ana Solís;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5320;17/03/2026;Sucursal Norte;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;María López;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5321;18/03/2026;Sucursal Norte;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Diego Castro;No;2;2 500,00;950,00;CRC;1,00;5 000,00;1 900,00;5 000,00
+5322;18/03/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Valeria Chacón;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5323;18/03/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Karla Monge;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5324;18/03/2026;Sucursal Centro;Exportación;Alemania;Café en Grano Tostado Premium (saco 46kg);Exportación;Roast Masters GmbH;N/A;5;210,00;140,00;USD;525,86;1 050,00;700,00;552 153,00
+5325;19/03/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Carlos Vargas;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5326;19/03/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;María López;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5327;20/03/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Diego Castro;Sí;3;1 200,00;400,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5328;20/03/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Paola Quirós;Sí;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5329;20/03/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Juan Ramírez;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5330;20/03/2026;Sucursal Norte;Nacional;Costa Rica;Croissant;Repostería;Laura Jiménez;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5331;20/03/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Camila Araya;Sí;2;2 500,00;950,00;CRC;1,00;5 000,00;1 900,00;5 000,00
+5332;20/03/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Priscilla Barrantes;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5333;20/03/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Paola Quirós;No;3;2 200,00;750,00;CRC;1,00;6 600,00;2 250,00;6 600,00
+5334;21/03/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Luis Herrera;No;4;1 400,00;400,00;CRC;1,00;5 600,00;1 600,00;5 600,00
+5335;21/03/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Daniel Rodríguez;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5336;21/03/2026;Sucursal Norte;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Camila Araya;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5337;21/03/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Camila Araya;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5338;21/03/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Tostado Premium (saco 46kg);Exportación;Nordic Coffee Traders;N/A;3;210,00;140,00;USD;520,11;630,00;420,00;327 669,30
+5339;22/03/2026;Sucursal Centro;Nacional;Costa Rica;Ensalada César;Alimentos;Luis Herrera;No;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5340;22/03/2026;Sucursal Norte;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Carlos Vargas;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5341;22/03/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Gabriela Salas;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5342;22/03/2026;Sucursal Este;Nacional;Costa Rica;Ensalada César;Alimentos;Kevin Brenes;No;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5343;23/03/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;María López;Sí;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5344;23/03/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Daniel Rodríguez;Sí;4;1 500,00;450,00;CRC;1,00;6 000,00;1 800,00;6 000,00
+5345;23/03/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Fernanda Ureña;No;3;2 500,00;950,00;CRC;1,00;7 500,00;2 850,00;7 500,00
+5346;23/03/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Alejandro Vega;No;4;1 200,00;350,00;CRC;1,00;4 800,00;1 400,00;4 800,00
+5347;24/03/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Alejandro Vega;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5348;24/03/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Kevin Brenes;Sí;3;800,00;250,00;CRC;1,00;2 400,00;750,00;2 400,00
+5349;24/03/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Gabriela Salas;No;3;1 200,00;350,00;CRC;1,00;3 600,00;1 050,00;3 600,00
+5350;24/03/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Kevin Brenes;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5351;25/03/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Alejandro Vega;No;4;1 200,00;400,00;CRC;1,00;4 800,00;1 600,00;4 800,00
+5352;25/03/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Camila Araya;No;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5353;25/03/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Juan Ramírez;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5354;25/03/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Sofía Rojas;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5355;26/03/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Sofía Rojas;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5356;26/03/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Camila Araya;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5357;26/03/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Diego Castro;Sí;4;1 400,00;480,00;CRC;1,00;5 600,00;1 920,00;5 600,00
+5358;27/03/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Melissa Zamora;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5359;27/03/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Gabriela Salas;Sí;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5360;27/03/2026;Sucursal Norte;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Melissa Zamora;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5361;27/03/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Carlos Vargas;Sí;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5362;27/03/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Natalia Cordero;No;4;1 600,00;500,00;CRC;1,00;6 400,00;2 000,00;6 400,00
+5363;27/03/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Sofía Rojas;Sí;4;800,00;250,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5364;27/03/2026;Sucursal Centro;Exportación;Alemania;Café en Grano Tostado Premium (saco 46kg);Exportación;Roast Masters GmbH;N/A;5;210,00;140,00;USD;525,87;1 050,00;700,00;552 163,50
+5365;28/03/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;José Fernández;No;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5366;28/03/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Luis Herrera;No;3;800,00;250,00;CRC;1,00;2 400,00;750,00;2 400,00
+5367;28/03/2026;Sucursal Sur;Nacional;Costa Rica;Ensalada César;Alimentos;Esteban Alvarado;Sí;4;3 200,00;1 300,00;CRC;1,00;12 800,00;5 200,00;12 800,00
+5368;28/03/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Karla Monge;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5369;29/03/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;María López;No;4;800,00;250,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5370;29/03/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Andrés Mora;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5371;29/03/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Kevin Brenes;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5372;29/03/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Luis Herrera;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5373;29/03/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Orgánico (saco 46kg);Exportación;Nordic Coffee Traders;N/A;4;245,00;165,00;USD;529,64;980,00;660,00;519 047,20
+5374;30/03/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Alejandro Vega;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5375;30/03/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Luis Herrera;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5376;30/03/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Andrés Mora;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5377;30/03/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Laura Jiménez;Sí;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5378;30/03/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Ricardo Gómez;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5379;30/03/2026;Sucursal Sur;Nacional;Costa Rica;Ensalada César;Alimentos;Ana Solís;No;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5380;30/03/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Esteban Alvarado;No;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5381;30/03/2026;Sucursal Centro;Exportación;Chile;Café en Grano Orgánico (saco 46kg);Exportación;Café del Sur Exports;N/A;1;245,00;165,00;USD;525,77;245,00;165,00;128 813,65
+5382;31/03/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Andrés Mora;No;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5383;31/03/2026;Sucursal Norte;Nacional;Costa Rica;Croissant;Repostería;Juan Ramírez;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5384;31/03/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Esteban Alvarado;Sí;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5385;31/03/2026;Sucursal Centro;Exportación;Alemania;Café en Grano Orgánico (saco 46kg);Exportación;Roast Masters GmbH;N/A;5;245,00;165,00;USD;525,88;1 225,00;825,00;644 203,00
+5386;01/04/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;José Fernández;No;3;800,00;250,00;CRC;1,00;2 400,00;750,00;2 400,00
+5387;01/04/2026;Sucursal Centro;Exportación;Chile;Café en Grano Tostado Premium (saco 46kg);Exportación;Café del Sur Exports;N/A;5;210,00;140,00;USD;531,04;1 050,00;700,00;557 592,00
+5388;02/04/2026;Sucursal Centro;Nacional;Costa Rica;Ensalada César;Alimentos;Carlos Vargas;No;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5389;02/04/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Sofía Rojas;No;3;1 500,00;450,00;CRC;1,00;4 500,00;1 350,00;4 500,00
+5390;02/04/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Esteban Alvarado;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5391;03/04/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Kevin Brenes;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5392;03/04/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Luis Herrera;Sí;4;1 500,00;450,00;CRC;1,00;6 000,00;1 800,00;6 000,00
+5393;03/04/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Gabriela Salas;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5394;03/04/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Esteban Alvarado;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5395;03/04/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Orgánico (saco 46kg);Exportación;Nordic Coffee Traders;N/A;4;245,00;165,00;USD;531,62;980,00;660,00;520 987,60
+5396;04/04/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Mario Sánchez;No;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5397;04/04/2026;Sucursal Este;Nacional;Costa Rica;Café Latte;Bebidas Calientes;María López;Sí;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5398;05/04/2026;Sucursal Centro;Nacional;Costa Rica;Ensalada César;Alimentos;Alejandro Vega;Sí;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5399;05/04/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Ricardo Gómez;Sí;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5400;05/04/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Ana Solís;Sí;3;1 400,00;480,00;CRC;1,00;4 200,00;1 440,00;4 200,00
+5401;05/04/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Paola Quirós;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5402;06/04/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Luis Herrera;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5403;06/04/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Kevin Brenes;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5404;07/04/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Esteban Alvarado;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5405;07/04/2026;Sucursal Centro;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Priscilla Barrantes;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5406;07/04/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Ana Solís;Sí;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5407;07/04/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Priscilla Barrantes;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5408;07/04/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Orgánico (saco 46kg);Exportación;Nordic Coffee Traders;N/A;2;245,00;165,00;USD;526,78;490,00;330,00;258 122,20
+5409;08/04/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;María López;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5410;08/04/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Esteban Alvarado;Sí;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5411;08/04/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Paola Quirós;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5412;08/04/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;José Fernández;No;3;1 500,00;450,00;CRC;1,00;4 500,00;1 350,00;4 500,00
+5413;09/04/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Priscilla Barrantes;Sí;3;2 500,00;950,00;CRC;1,00;7 500,00;2 850,00;7 500,00
+5414;09/04/2026;Sucursal Norte;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Esteban Alvarado;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5415;09/04/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Karla Monge;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5416;09/04/2026;Sucursal Sur;Nacional;Costa Rica;Brownie;Repostería;Ricardo Gómez;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5417;09/04/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Ricardo Gómez;Sí;4;2 500,00;950,00;CRC;1,00;10 000,00;3 800,00;10 000,00
+5418;10/04/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Camila Araya;Sí;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5419;10/04/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Paola Quirós;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5420;10/04/2026;Sucursal Norte;Nacional;Costa Rica;Ensalada César;Alimentos;Carlos Vargas;Sí;3;3 200,00;1 300,00;CRC;1,00;9 600,00;3 900,00;9 600,00
+5421;10/04/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Gabriela Salas;No;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5422;11/04/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Luis Herrera;Sí;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5423;11/04/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Karla Monge;No;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5424;11/04/2026;Sucursal Norte;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Daniel Rodríguez;No;4;1 300,00;450,00;CRC;1,00;5 200,00;1 800,00;5 200,00
+5425;11/04/2026;Sucursal Este;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Kevin Brenes;No;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5426;12/04/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Priscilla Barrantes;No;4;1 300,00;450,00;CRC;1,00;5 200,00;1 800,00;5 200,00
+5427;12/04/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Karla Monge;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5428;12/04/2026;Sucursal Este;Nacional;Costa Rica;Ensalada César;Alimentos;Juan Ramírez;Sí;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5429;12/04/2026;Sucursal Este;Nacional;Costa Rica;Ensalada César;Alimentos;Fernanda Ureña;Sí;4;3 200,00;1 300,00;CRC;1,00;12 800,00;5 200,00;12 800,00
+5430;13/04/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Priscilla Barrantes;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5431;13/04/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Ana Solís;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5432;13/04/2026;Sucursal Norte;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Priscilla Barrantes;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5433;13/04/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Karla Monge;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5434;14/04/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Mario Sánchez;Sí;4;800,00;250,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5435;14/04/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Gabriela Salas;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5436;14/04/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Esteban Alvarado;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5437;14/04/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Sofía Rojas;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5438;15/04/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Fernanda Ureña;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5439;15/04/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Andrés Mora;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5440;15/04/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Carlos Vargas;Sí;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5441;15/04/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;José Fernández;Sí;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5442;15/04/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Carlos Vargas;Sí;4;1 500,00;450,00;CRC;1,00;6 000,00;1 800,00;6 000,00
+5443;16/04/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Fernanda Ureña;Sí;4;1 300,00;450,00;CRC;1,00;5 200,00;1 800,00;5 200,00
+5444;16/04/2026;Sucursal Norte;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Carlos Vargas;No;4;1 600,00;500,00;CRC;1,00;6 400,00;2 000,00;6 400,00
+5445;16/04/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Valeria Chacón;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5446;16/04/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Gabriela Salas;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5447;16/04/2026;Sucursal Centro;Exportación;Chile;Café en Grano Orgánico (saco 46kg);Exportación;Café del Sur Exports;N/A;3;245,00;165,00;USD;524,82;735,00;495,00;385 742,70
+5448;17/04/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Gabriela Salas;No;3;1 400,00;480,00;CRC;1,00;4 200,00;1 440,00;4 200,00
+5449;17/04/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Valeria Chacón;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5450;17/04/2026;Sucursal Sur;Nacional;Costa Rica;Brownie;Repostería;Natalia Cordero;Sí;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5451;17/04/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Andrés Mora;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5452;17/04/2026;Sucursal Centro;Exportación;Panamá;Café en Grano Orgánico (saco 46kg);Exportación;Café Andino S.A.;N/A;1;245,00;165,00;USD;530,64;245,00;165,00;130 006,80
+5453;18/04/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Daniel Rodríguez;No;2;2 500,00;950,00;CRC;1,00;5 000,00;1 900,00;5 000,00
+5454;18/04/2026;Sucursal Centro;Exportación;Estados Unidos;Café en Grano Orgánico (saco 46kg);Exportación;Global Roasters Inc.;N/A;2;245,00;165,00;USD;527,48;490,00;330,00;258 465,20
+5455;19/04/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Fernanda Ureña;No;3;1 300,00;450,00;CRC;1,00;3 900,00;1 350,00;3 900,00
+5456;19/04/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Carlos Vargas;Sí;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5457;19/04/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Tostado Premium (saco 46kg);Exportación;Nordic Coffee Traders;N/A;5;210,00;140,00;USD;530,49;1 050,00;700,00;557 014,50
+5458;20/04/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Sofía Rojas;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5459;20/04/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Ricardo Gómez;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5460;20/04/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Gabriela Salas;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5461;21/04/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Andrés Mora;No;3;2 200,00;750,00;CRC;1,00;6 600,00;2 250,00;6 600,00
+5462;21/04/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Camila Araya;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5463;21/04/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Laura Jiménez;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5464;21/04/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Kevin Brenes;Sí;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5465;22/04/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Diego Castro;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5466;22/04/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Esteban Alvarado;Sí;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5467;22/04/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Esteban Alvarado;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5468;23/04/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Kevin Brenes;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5469;23/04/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Gabriela Salas;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5470;23/04/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Laura Jiménez;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5471;23/04/2026;Sucursal Este;Nacional;Costa Rica;Ensalada César;Alimentos;Natalia Cordero;Sí;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5472;24/04/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Diego Castro;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5473;24/04/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Sofía Rojas;Sí;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5474;24/04/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Natalia Cordero;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5475;25/04/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Esteban Alvarado;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5476;25/04/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Laura Jiménez;No;3;1 200,00;350,00;CRC;1,00;3 600,00;1 050,00;3 600,00
+5477;25/04/2026;Sucursal Norte;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Luis Herrera;Sí;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5478;26/04/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Luis Herrera;No;4;2 200,00;750,00;CRC;1,00;8 800,00;3 000,00;8 800,00
+5479;26/04/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;María López;No;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5480;26/04/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Diego Castro;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5481;26/04/2026;Sucursal Centro;Exportación;Canadá;Café en Grano Orgánico (saco 46kg);Exportación;Pacific Bean Co.;N/A;4;245,00;165,00;USD;530,01;980,00;660,00;519 409,80
+5482;27/04/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Paola Quirós;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5483;27/04/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Priscilla Barrantes;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5484;27/04/2026;Sucursal Este;Nacional;Costa Rica;Ensalada César;Alimentos;Juan Ramírez;Sí;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5485;27/04/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Esteban Alvarado;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5486;28/04/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;María López;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5487;28/04/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Ricardo Gómez;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5488;28/04/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Mario Sánchez;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5489;28/04/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;María López;No;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5490;29/04/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Karla Monge;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5491;29/04/2026;Sucursal Centro;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Karla Monge;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5492;29/04/2026;Sucursal Este;Nacional;Costa Rica;Ensalada César;Alimentos;Valeria Chacón;Sí;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5493;29/04/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Laura Jiménez;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5494;30/04/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Fernanda Ureña;No;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5495;30/04/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Melissa Zamora;Sí;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5496;30/04/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Juan Ramírez;Sí;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5497;30/04/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Gabriela Salas;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5498;01/05/2026;Sucursal Centro;Nacional;Costa Rica;Ensalada César;Alimentos;Camila Araya;No;4;3 200,00;1 300,00;CRC;1,00;12 800,00;5 200,00;12 800,00
+5499;01/05/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Juan Ramírez;Sí;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5500;01/05/2026;Sucursal Norte;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Kevin Brenes;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5501;01/05/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Natalia Cordero;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5502;01/05/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Natalia Cordero;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5503;01/05/2026;Sucursal Centro;Exportación;Alemania;Café en Grano Orgánico (saco 46kg);Exportación;Roast Masters GmbH;N/A;5;245,00;165,00;USD;518,65;1 225,00;825,00;635 346,25
+5504;02/05/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Alejandro Vega;No;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5505;02/05/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Juan Ramírez;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5506;03/05/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Juan Ramírez;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5507;03/05/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Diego Castro;Sí;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5508;03/05/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Ana Solís;No;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5509;03/05/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Paola Quirós;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5510;03/05/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Fernanda Ureña;Sí;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5511;04/05/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Paola Quirós;No;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5512;04/05/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Melissa Zamora;Sí;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5513;04/05/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Mario Sánchez;Sí;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5514;04/05/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;María López;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5515;04/05/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Mario Sánchez;Sí;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5516;05/05/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Andrés Mora;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5517;05/05/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Luis Herrera;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5518;05/05/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Priscilla Barrantes;Sí;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5519;06/05/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Alejandro Vega;Sí;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5520;06/05/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Daniel Rodríguez;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5521;06/05/2026;Sucursal Sur;Nacional;Costa Rica;Brownie;Repostería;Daniel Rodríguez;No;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5522;06/05/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;José Fernández;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5523;07/05/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Carlos Vargas;No;3;1 200,00;400,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5524;07/05/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Melissa Zamora;No;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5525;07/05/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Carlos Vargas;Sí;4;1 600,00;500,00;CRC;1,00;6 400,00;2 000,00;6 400,00
+5526;07/05/2026;Sucursal Este;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Carlos Vargas;No;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5527;07/05/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Kevin Brenes;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5528;08/05/2026;Sucursal Centro;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Gabriela Salas;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5529;08/05/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Luis Herrera;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5530;08/05/2026;Sucursal Norte;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Natalia Cordero;No;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5531;08/05/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Daniel Rodríguez;No;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5532;08/05/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Luis Herrera;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5533;09/05/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Gabriela Salas;No;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5534;09/05/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Ricardo Gómez;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5535;09/05/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;María López;Sí;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5536;09/05/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Luis Herrera;No;4;800,00;250,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5537;09/05/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Mario Sánchez;No;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5538;10/05/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Alejandro Vega;No;2;2 500,00;950,00;CRC;1,00;5 000,00;1 900,00;5 000,00
+5539;10/05/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Juan Ramírez;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5540;10/05/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Alejandro Vega;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5541;10/05/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Natalia Cordero;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5542;11/05/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Kevin Brenes;No;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5543;11/05/2026;Sucursal Norte;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Camila Araya;No;3;1 300,00;450,00;CRC;1,00;3 900,00;1 350,00;3 900,00
+5544;11/05/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Diego Castro;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5545;11/05/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;Diego Castro;Sí;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5546;12/05/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Melissa Zamora;Sí;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5547;12/05/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Sofía Rojas;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5548;12/05/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Juan Ramírez;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5549;12/05/2026;Sucursal Este;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Melissa Zamora;No;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5550;13/05/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Karla Monge;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5551;13/05/2026;Sucursal Este;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Fernanda Ureña;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5552;13/05/2026;Sucursal Centro;Exportación;Canadá;Café en Grano Orgánico (saco 46kg);Exportación;Pacific Bean Co.;N/A;4;245,00;165,00;USD;521,72;980,00;660,00;511 285,60
+5553;14/05/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Laura Jiménez;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5554;14/05/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Carlos Vargas;Sí;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5555;14/05/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;María López;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5556;14/05/2026;Sucursal Norte;Nacional;Costa Rica;Croissant;Repostería;Esteban Alvarado;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5557;14/05/2026;Sucursal Sur;Nacional;Costa Rica;Ensalada César;Alimentos;Juan Ramírez;No;3;3 200,00;1 300,00;CRC;1,00;9 600,00;3 900,00;9 600,00
+5558;14/05/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Laura Jiménez;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5559;14/05/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Diego Castro;Sí;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5560;14/05/2026;Sucursal Centro;Exportación;Panamá;Café en Grano Tostado Premium (saco 46kg);Exportación;Café Andino S.A.;N/A;2;210,00;140,00;USD;524,30;420,00;280,00;220 206,00
+5561;15/05/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Juan Ramírez;Sí;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5562;15/05/2026;Sucursal Norte;Nacional;Costa Rica;Ensalada César;Alimentos;Juan Ramírez;No;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5563;15/05/2026;Sucursal Norte;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Andrés Mora;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5564;15/05/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Camila Araya;Sí;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5565;15/05/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Luis Herrera;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5566;15/05/2026;Sucursal Este;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Andrés Mora;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5567;16/05/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Luis Herrera;Sí;3;1 600,00;500,00;CRC;1,00;4 800,00;1 500,00;4 800,00
+5568;16/05/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Andrés Mora;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5569;16/05/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Diego Castro;Sí;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5570;16/05/2026;Sucursal Este;Nacional;Costa Rica;Croissant;Repostería;José Fernández;Sí;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5571;17/05/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Melissa Zamora;Sí;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5572;17/05/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Mario Sánchez;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5573;17/05/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;José Fernández;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5574;17/05/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;María López;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5575;18/05/2026;Sucursal Centro;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Sofía Rojas;Sí;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5576;18/05/2026;Sucursal Norte;Nacional;Costa Rica;Croissant;Repostería;Paola Quirós;No;4;1 200,00;400,00;CRC;1,00;4 800,00;1 600,00;4 800,00
+5577;18/05/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;José Fernández;Sí;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5578;18/05/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Melissa Zamora;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5579;19/05/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Sofía Rojas;Sí;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5580;19/05/2026;Sucursal Norte;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Valeria Chacón;No;2;2 500,00;950,00;CRC;1,00;5 000,00;1 900,00;5 000,00
+5581;19/05/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Mario Sánchez;Sí;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5582;19/05/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Sofía Rojas;Sí;4;1 200,00;400,00;CRC;1,00;4 800,00;1 600,00;4 800,00
+5583;20/05/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Daniel Rodríguez;No;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5584;20/05/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Alejandro Vega;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5585;20/05/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Gabriela Salas;No;3;1 500,00;450,00;CRC;1,00;4 500,00;1 350,00;4 500,00
+5586;20/05/2026;Sucursal Este;Nacional;Costa Rica;Ensalada César;Alimentos;Andrés Mora;Sí;3;3 200,00;1 300,00;CRC;1,00;9 600,00;3 900,00;9 600,00
+5587;21/05/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Natalia Cordero;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5588;21/05/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Karla Monge;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5589;21/05/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Karla Monge;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5590;21/05/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Priscilla Barrantes;No;3;800,00;250,00;CRC;1,00;2 400,00;750,00;2 400,00
+5591;22/05/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Diego Castro;Sí;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5592;22/05/2026;Sucursal Norte;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;María López;No;3;1 600,00;500,00;CRC;1,00;4 800,00;1 500,00;4 800,00
+5593;22/05/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Gabriela Salas;Sí;3;1 200,00;350,00;CRC;1,00;3 600,00;1 050,00;3 600,00
+5594;22/05/2026;Sucursal Centro;Exportación;Panamá;Café en Grano Tostado Premium (saco 46kg);Exportación;Café Andino S.A.;N/A;4;210,00;140,00;USD;528,28;840,00;560,00;443 755,20
+5595;23/05/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Ricardo Gómez;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5596;23/05/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Gabriela Salas;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5597;23/05/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Melissa Zamora;No;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5598;24/05/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Karla Monge;No;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5599;24/05/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Alejandro Vega;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5600;24/05/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Fernanda Ureña;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5601;24/05/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Carlos Vargas;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5602;24/05/2026;Sucursal Centro;Exportación;Chile;Café en Grano Orgánico (saco 46kg);Exportación;Café del Sur Exports;N/A;1;245,00;165,00;USD;523,84;245,00;165,00;128 340,80
+5603;25/05/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Ricardo Gómez;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5604;25/05/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;José Fernández;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5605;25/05/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Camila Araya;No;3;800,00;250,00;CRC;1,00;2 400,00;750,00;2 400,00
+5606;25/05/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Juan Ramírez;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5607;25/05/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Natalia Cordero;No;4;1 400,00;480,00;CRC;1,00;5 600,00;1 920,00;5 600,00
+5608;25/05/2026;Sucursal Centro;Exportación;Estados Unidos;Café en Grano Tostado Premium (saco 46kg);Exportación;Global Roasters Inc.;N/A;5;210,00;140,00;USD;529,55;1 050,00;700,00;556 027,50
+5609;26/05/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Diego Castro;No;4;1 400,00;400,00;CRC;1,00;5 600,00;1 600,00;5 600,00
+5610;26/05/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Andrés Mora;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5611;26/05/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;José Fernández;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5612;26/05/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Laura Jiménez;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5613;27/05/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Andrés Mora;Sí;3;2 500,00;950,00;CRC;1,00;7 500,00;2 850,00;7 500,00
+5614;27/05/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Melissa Zamora;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5615;27/05/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Laura Jiménez;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5616;27/05/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Carlos Vargas;No;4;1 400,00;480,00;CRC;1,00;5 600,00;1 920,00;5 600,00
+5617;28/05/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Paola Quirós;No;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5618;28/05/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Karla Monge;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5619;28/05/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Juan Ramírez;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5620;28/05/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Carlos Vargas;No;2;1 200,00;350,00;CRC;1,00;2 400,00;700,00;2 400,00
+5621;29/05/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Paola Quirós;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5622;29/05/2026;Sucursal Norte;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Mario Sánchez;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5623;29/05/2026;Sucursal Sur;Nacional;Costa Rica;Ensalada César;Alimentos;Esteban Alvarado;Sí;3;3 200,00;1 300,00;CRC;1,00;9 600,00;3 900,00;9 600,00
+5624;29/05/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Fernanda Ureña;Sí;3;2 500,00;950,00;CRC;1,00;7 500,00;2 850,00;7 500,00
+5625;30/05/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Sofía Rojas;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5626;30/05/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Melissa Zamora;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5627;30/05/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Andrés Mora;Sí;3;1 400,00;480,00;CRC;1,00;4 200,00;1 440,00;4 200,00
+5628;30/05/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Orgánico (saco 46kg);Exportación;Nordic Coffee Traders;N/A;2;245,00;165,00;USD;523,15;490,00;330,00;256 343,50
+5629;31/05/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Diego Castro;Sí;3;1 400,00;480,00;CRC;1,00;4 200,00;1 440,00;4 200,00
+5630;31/05/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Daniel Rodríguez;No;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5631;31/05/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;José Fernández;Sí;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5632;31/05/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;José Fernández;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5633;31/05/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Juan Ramírez;Sí;4;1 500,00;450,00;CRC;1,00;6 000,00;1 800,00;6 000,00
+5634;01/06/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Sofía Rojas;No;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5635;01/06/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Ricardo Gómez;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5636;01/06/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Andrés Mora;Sí;2;2 500,00;950,00;CRC;1,00;5 000,00;1 900,00;5 000,00
+5637;01/06/2026;Sucursal Este;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Juan Ramírez;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5638;01/06/2026;Sucursal Centro;Exportación;Estados Unidos;Café en Grano Orgánico (saco 46kg);Exportación;Global Roasters Inc.;N/A;1;245,00;165,00;USD;529,77;245,00;165,00;129 793,65
+5639;02/06/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Laura Jiménez;Sí;3;1 600,00;500,00;CRC;1,00;4 800,00;1 500,00;4 800,00
+5640;02/06/2026;Sucursal Centro;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Natalia Cordero;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5641;02/06/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Alejandro Vega;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5642;02/06/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Luis Herrera;Sí;4;1 600,00;500,00;CRC;1,00;6 400,00;2 000,00;6 400,00
+5643;03/06/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Sofía Rojas;No;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5644;03/06/2026;Sucursal Norte;Nacional;Costa Rica;Croissant;Repostería;Paola Quirós;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5645;03/06/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Ricardo Gómez;No;4;1 600,00;500,00;CRC;1,00;6 400,00;2 000,00;6 400,00
+5646;04/06/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Alejandro Vega;Sí;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5647;04/06/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Esteban Alvarado;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5648;04/06/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Natalia Cordero;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5649;04/06/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Alejandro Vega;No;3;1 200,00;350,00;CRC;1,00;3 600,00;1 050,00;3 600,00
+5650;04/06/2026;Sucursal Centro;Exportación;Canadá;Café en Grano Orgánico (saco 46kg);Exportación;Pacific Bean Co.;N/A;4;245,00;165,00;USD;531,20;980,00;660,00;520 576,00
+5651;05/06/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Andrés Mora;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5652;05/06/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Andrés Mora;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5653;05/06/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Carlos Vargas;Sí;4;2 500,00;950,00;CRC;1,00;10 000,00;3 800,00;10 000,00
+5654;05/06/2026;Sucursal Sur;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Melissa Zamora;Sí;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5655;05/06/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Esteban Alvarado;Sí;2;2 500,00;950,00;CRC;1,00;5 000,00;1 900,00;5 000,00
+5656;06/06/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Carlos Vargas;No;2;2 500,00;950,00;CRC;1,00;5 000,00;1 900,00;5 000,00
+5657;06/06/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Ana Solís;No;3;1 300,00;450,00;CRC;1,00;3 900,00;1 350,00;3 900,00
+5658;06/06/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Natalia Cordero;No;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5659;07/06/2026;Sucursal Centro;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Paola Quirós;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5660;07/06/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Diego Castro;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5661;07/06/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Priscilla Barrantes;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5662;07/06/2026;Sucursal Norte;Nacional;Costa Rica;Ensalada César;Alimentos;Ricardo Gómez;Sí;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5663;07/06/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;María López;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5664;08/06/2026;Sucursal Norte;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Ana Solís;No;4;1 600,00;500,00;CRC;1,00;6 400,00;2 000,00;6 400,00
+5665;08/06/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Carlos Vargas;No;4;1 300,00;450,00;CRC;1,00;5 200,00;1 800,00;5 200,00
+5666;08/06/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;José Fernández;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5667;09/06/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Andrés Mora;Sí;3;1 800,00;600,00;CRC;1,00;5 400,00;1 800,00;5 400,00
+5668;09/06/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Daniel Rodríguez;No;4;2 200,00;750,00;CRC;1,00;8 800,00;3 000,00;8 800,00
+5669;09/06/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;José Fernández;Sí;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5670;09/06/2026;Sucursal Este;Nacional;Costa Rica;Ensalada César;Alimentos;Ricardo Gómez;Sí;3;3 200,00;1 300,00;CRC;1,00;9 600,00;3 900,00;9 600,00
+5671;10/06/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Karla Monge;No;4;1 200,00;350,00;CRC;1,00;4 800,00;1 400,00;4 800,00
+5672;10/06/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Carlos Vargas;No;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5673;10/06/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Ana Solís;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5674;10/06/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Luis Herrera;No;3;1 200,00;400,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5675;10/06/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Fernanda Ureña;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5676;11/06/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;María López;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5677;11/06/2026;Sucursal Norte;Nacional;Costa Rica;Croissant;Repostería;Esteban Alvarado;No;4;1 200,00;400,00;CRC;1,00;4 800,00;1 600,00;4 800,00
+5678;11/06/2026;Sucursal Centro;Exportación;Alemania;Café en Grano Orgánico (saco 46kg);Exportación;Roast Masters GmbH;N/A;2;245,00;165,00;USD;527,70;490,00;330,00;258 573,00
+5679;12/06/2026;Sucursal Centro;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Andrés Mora;No;2;1 600,00;500,00;CRC;1,00;3 200,00;1 000,00;3 200,00
+5680;12/06/2026;Sucursal Norte;Nacional;Costa Rica;Café Latte;Bebidas Calientes;José Fernández;Sí;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5681;12/06/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Laura Jiménez;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5682;12/06/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;José Fernández;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5683;12/06/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Gabriela Salas;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5684;12/06/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Camila Araya;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5685;13/06/2026;Sucursal Centro;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Ricardo Gómez;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5686;13/06/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Gabriela Salas;Sí;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5687;13/06/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Fernanda Ureña;No;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5688;13/06/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Juan Ramírez;No;4;2 500,00;950,00;CRC;1,00;10 000,00;3 800,00;10 000,00
+5689;13/06/2026;Sucursal Centro;Exportación;Alemania;Café en Grano Tostado Premium (saco 46kg);Exportación;Roast Masters GmbH;N/A;5;210,00;140,00;USD;526,00;1 050,00;700,00;552 300,00
+5690;14/06/2026;Sucursal Norte;Nacional;Costa Rica;Ensalada César;Alimentos;Luis Herrera;No;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5691;14/06/2026;Sucursal Sur;Nacional;Costa Rica;Brownie;Repostería;Ana Solís;Sí;4;1 400,00;480,00;CRC;1,00;5 600,00;1 920,00;5 600,00
+5692;14/06/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;José Fernández;No;3;2 500,00;950,00;CRC;1,00;7 500,00;2 850,00;7 500,00
+5693;15/06/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Gabriela Salas;Sí;3;2 500,00;950,00;CRC;1,00;7 500,00;2 850,00;7 500,00
+5694;15/06/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Alejandro Vega;Sí;4;2 200,00;750,00;CRC;1,00;8 800,00;3 000,00;8 800,00
+5695;15/06/2026;Sucursal Norte;Nacional;Costa Rica;Croissant;Repostería;José Fernández;No;4;1 200,00;400,00;CRC;1,00;4 800,00;1 600,00;4 800,00
+5696;15/06/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Laura Jiménez;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5697;15/06/2026;Sucursal Este;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Paola Quirós;Sí;4;1 600,00;500,00;CRC;1,00;6 400,00;2 000,00;6 400,00
+5698;16/06/2026;Sucursal Centro;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Ana Solís;Sí;3;1 300,00;450,00;CRC;1,00;3 900,00;1 350,00;3 900,00
+5699;16/06/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Daniel Rodríguez;No;3;1 400,00;400,00;CRC;1,00;4 200,00;1 200,00;4 200,00
+5700;16/06/2026;Sucursal Sur;Nacional;Costa Rica;Café Latte;Bebidas Calientes;Sofía Rojas;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5701;16/06/2026;Sucursal Este;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Luis Herrera;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5702;16/06/2026;Sucursal Este;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Priscilla Barrantes;No;3;2 200,00;750,00;CRC;1,00;6 600,00;2 250,00;6 600,00
+5703;17/06/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Diego Castro;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5704;17/06/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Priscilla Barrantes;Sí;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5705;17/06/2026;Sucursal Sur;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Karla Monge;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5706;17/06/2026;Sucursal Este;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Sofía Rojas;No;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5707;18/06/2026;Sucursal Norte;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Daniel Rodríguez;Sí;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5708;18/06/2026;Sucursal Sur;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Ana Solís;Sí;4;1 500,00;450,00;CRC;1,00;6 000,00;1 800,00;6 000,00
+5709;18/06/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Camila Araya;No;1;1 300,00;450,00;CRC;1,00;1 300,00;450,00;1 300,00
+5710;18/06/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Mario Sánchez;No;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5711;19/06/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Camila Araya;No;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5712;19/06/2026;Sucursal Sur;Nacional;Costa Rica;Jugo Natural;Bebidas Frías;Ricardo Gómez;No;1;1 600,00;500,00;CRC;1,00;1 600,00;500,00;1 600,00
+5713;19/06/2026;Sucursal Este;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Kevin Brenes;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5714;20/06/2026;Sucursal Centro;Nacional;Costa Rica;Ensalada César;Alimentos;Esteban Alvarado;No;2;3 200,00;1 300,00;CRC;1,00;6 400,00;2 600,00;6 400,00
+5715;20/06/2026;Sucursal Norte;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;María López;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5716;20/06/2026;Sucursal Sur;Nacional;Costa Rica;Brownie;Repostería;Camila Araya;Sí;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5717;20/06/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Daniel Rodríguez;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5718;20/06/2026;Sucursal Centro;Exportación;Suecia;Café en Grano Tostado Premium (saco 46kg);Exportación;Nordic Coffee Traders;N/A;4;210,00;140,00;USD;528,74;840,00;560,00;444 141,60
+5719;21/06/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Kevin Brenes;Sí;3;2 200,00;750,00;CRC;1,00;6 600,00;2 250,00;6 600,00
+5720;21/06/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Laura Jiménez;No;2;1 200,00;400,00;CRC;1,00;2 400,00;800,00;2 400,00
+5721;21/06/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Camila Araya;Sí;2;1 300,00;450,00;CRC;1,00;2 600,00;900,00;2 600,00
+5722;21/06/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Esteban Alvarado;No;4;2 500,00;950,00;CRC;1,00;10 000,00;3 800,00;10 000,00
+5723;22/06/2026;Sucursal Centro;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Paola Quirós;No;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5724;22/06/2026;Sucursal Centro;Nacional;Costa Rica;Croissant;Repostería;Natalia Cordero;No;1;1 200,00;400,00;CRC;1,00;1 200,00;400,00;1 200,00
+5725;22/06/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Mario Sánchez;No;3;1 500,00;450,00;CRC;1,00;4 500,00;1 350,00;4 500,00
+5726;22/06/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Melissa Zamora;Sí;4;1 800,00;600,00;CRC;1,00;7 200,00;2 400,00;7 200,00
+5727;23/06/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Carlos Vargas;Sí;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5728;23/06/2026;Sucursal Centro;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Mario Sánchez;No;1;1 200,00;350,00;CRC;1,00;1 200,00;350,00;1 200,00
+5729;23/06/2026;Sucursal Norte;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Daniel Rodríguez;Sí;1;2 200,00;750,00;CRC;1,00;2 200,00;750,00;2 200,00
+5730;23/06/2026;Sucursal Norte;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Priscilla Barrantes;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5731;23/06/2026;Sucursal Sur;Nacional;Costa Rica;Ensalada César;Alimentos;Karla Monge;Sí;4;3 200,00;1 300,00;CRC;1,00;12 800,00;5 200,00;12 800,00
+5732;23/06/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Melissa Zamora;No;4;1 200,00;350,00;CRC;1,00;4 800,00;1 400,00;4 800,00
+5733;24/06/2026;Sucursal Centro;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;María López;Sí;3;2 200,00;750,00;CRC;1,00;6 600,00;2 250,00;6 600,00
+5734;24/06/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;José Fernández;Sí;2;1 400,00;480,00;CRC;1,00;2 800,00;960,00;2 800,00
+5735;25/06/2026;Sucursal Centro;Nacional;Costa Rica;Brownie;Repostería;Melissa Zamora;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5736;25/06/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Valeria Chacón;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5737;25/06/2026;Sucursal Sur;Nacional;Costa Rica;Frappé de Café;Bebidas Frías;Sofía Rojas;Sí;2;2 200,00;750,00;CRC;1,00;4 400,00;1 500,00;4 400,00
+5738;25/06/2026;Sucursal Este;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Esteban Alvarado;Sí;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5739;26/06/2026;Sucursal Centro;Nacional;Costa Rica;Ensalada César;Alimentos;Valeria Chacón;No;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5740;26/06/2026;Sucursal Norte;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Ana Solís;Sí;2;1 400,00;400,00;CRC;1,00;2 800,00;800,00;2 800,00
+5741;26/06/2026;Sucursal Sur;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Camila Araya;No;2;1 800,00;600,00;CRC;1,00;3 600,00;1 200,00;3 600,00
+5742;26/06/2026;Sucursal Este;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Fernanda Ureña;Sí;4;1 200,00;350,00;CRC;1,00;4 800,00;1 400,00;4 800,00
+5743;26/06/2026;Sucursal Centro;Exportación;Estados Unidos;Café en Grano Orgánico (saco 46kg);Exportación;Global Roasters Inc.;N/A;3;245,00;165,00;USD;520,55;735,00;495,00;382 604,25
+5744;27/06/2026;Sucursal Centro;Nacional;Costa Rica;Té Chai;Bebidas Calientes;Alejandro Vega;Sí;1;1 400,00;400,00;CRC;1,00;1 400,00;400,00;1 400,00
+5745;27/06/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Laura Jiménez;No;1;1 500,00;450,00;CRC;1,00;1 500,00;450,00;1 500,00
+5746;27/06/2026;Sucursal Sur;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;José Fernández;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5747;27/06/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Alejandro Vega;Sí;2;800,00;250,00;CRC;1,00;1 600,00;500,00;1 600,00
+5748;27/06/2026;Sucursal Este;Nacional;Costa Rica;Brownie;Repostería;Alejandro Vega;No;1;1 400,00;480,00;CRC;1,00;1 400,00;480,00;1 400,00
+5749;28/06/2026;Sucursal Norte;Nacional;Costa Rica;Té Verde;Bebidas Calientes;Sofía Rojas;No;3;1 200,00;350,00;CRC;1,00;3 600,00;1 050,00;3 600,00
+5750;28/06/2026;Sucursal Norte;Nacional;Costa Rica;Café Americano;Bebidas Calientes;Juan Ramírez;Sí;2;1 500,00;450,00;CRC;1,00;3 000,00;900,00;3 000,00
+5751;28/06/2026;Sucursal Sur;Nacional;Costa Rica;Muffin de Arándanos;Repostería;Kevin Brenes;No;3;1 300,00;450,00;CRC;1,00;3 900,00;1 350,00;3 900,00
+5752;28/06/2026;Sucursal Centro;Exportación;Estados Unidos;Café en Grano Orgánico (saco 46kg);Exportación;Global Roasters Inc.;N/A;1;245,00;165,00;USD;519,69;245,00;165,00;127 324,05
+5753;29/06/2026;Sucursal Centro;Nacional;Costa Rica;Cappuccino;Bebidas Calientes;Natalia Cordero;No;1;1 800,00;600,00;CRC;1,00;1 800,00;600,00;1 800,00
+5754;29/06/2026;Sucursal Norte;Nacional;Costa Rica;Brownie;Repostería;Mario Sánchez;Sí;3;1 400,00;480,00;CRC;1,00;4 200,00;1 440,00;4 200,00
+5755;29/06/2026;Sucursal Sur;Nacional;Costa Rica;Croissant;Repostería;Carlos Vargas;No;4;1 200,00;400,00;CRC;1,00;4 800,00;1 600,00;4 800,00
+5756;29/06/2026;Sucursal Sur;Nacional;Costa Rica;Agua Embotellada;Bebidas Frías;Ana Solís;Sí;1;800,00;250,00;CRC;1,00;800,00;250,00;800,00
+5757;29/06/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Ana Solís;Sí;1;2 500,00;950,00;CRC;1,00;2 500,00;950,00;2 500,00
+5758;29/06/2026;Sucursal Centro;Exportación;Estados Unidos;Café en Grano Orgánico (saco 46kg);Exportación;Global Roasters Inc.;N/A;1;245,00;165,00;USD;520,75;245,00;165,00;127 583,75
+5759;30/06/2026;Sucursal Norte;Nacional;Costa Rica;Ensalada César;Alimentos;Mario Sánchez;No;1;3 200,00;1 300,00;CRC;1,00;3 200,00;1 300,00;3 200,00
+5760;30/06/2026;Sucursal Este;Nacional;Costa Rica;Sandwich Jamón y Queso;Alimentos;Juan Ramírez;No;2;2 500,00;950,00;CRC;1,00;5 000,00;1 900,00;5 000,00
